@@ -7,20 +7,18 @@
     </ion-header>
     <ion-content :fullscreen="true">
       <welcome-card />
-      <google-map />
     </ion-content>
   </ion-page>
 </template>
 
 <script>
 import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/vue';
-import GoogleMap from '@/components/GoogleMap.vue';
 import WelcomeCard from '@/components/WelcomeCard.vue';
 import { tennisball } from 'ionicons/icons';
 
 export default  {
   name: 'Accueil',
-  components: {GoogleMap, WelcomeCard,  IonHeader, IonToolbar, IonTitle, IonContent, IonPage },
+  components: { WelcomeCard,  IonHeader, IonToolbar, IonTitle, IonContent, IonPage },
     setup() {
     return {
       tennisball
