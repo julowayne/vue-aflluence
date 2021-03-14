@@ -38,7 +38,7 @@
           <ion-input v-model="email" placeholder="email"></ion-input>
       </ion-item>
         <ion-item>
-          <ion-label>Accepter les conditions d'utilisation</ion-label>
+          <ion-label>Conditions d'utilisation</ion-label>
           <ion-checkbox v-model="cgu" color="primary" slot="start"></ion-checkbox>
         </ion-item>
       <section>
